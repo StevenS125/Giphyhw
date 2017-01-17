@@ -11,7 +11,7 @@
 		var Results = "&limit=" + 10;
 		var apiKey = "&api_key=dc6zaTOxFJmzC"
 		//compile the query components into a queryURL
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + giphTopicCond + Results + apiKey;
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + giphTopicCond + Results + apiKey;
 		
 		// AJAX call 
 		$.ajax({url: queryURL, method: 'GET'}).done(function(response) {
