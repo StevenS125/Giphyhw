@@ -1,0 +1,93 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.buttonsTop {
+    width: 100%;
+    margin: 0px;
+    padding: 20px 10px 20px 10px;
+}
+
+
+.buttonsTop {
+    background: black;
+    overflow: auto;
+}
+
+#giphDisplay {
+    background-color: black;
+}
+
+#buttonDisplay {
+    float: left;
+    width: 60%
+}
+
+#topic-form {
+    float: right;
+    width: 35%;
+}
+
+h1, h2, h3, p, form, .form-label, .form-input, .form-btn, button {
+    font-family: 'Lobster', cursive;
+}
+
+h1, h2, h3 {
+    padding: 0px 10px 0px 10px;
+    color: saddlebrown;
+    line-height: 1.5;
+}
+
+
+.form-label {
+    color: saddlebrown;
+}
+
+.topic-btn, .form-label, .form-input, .form-btn {
+    margin: 10px;
+    padding: 10px;
+}
+
+.topic-btn, .form-btn {
+    border: none;
+}
+
+.topic-btn {
+    font-size: large;
+    background-color: darkgray;
+    color: saddlebrown;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.topic-btn:hover {
+    background-color: gray;
+    color: saddlebrown
+}
+
+.form-btn {
+    background-color: darkgray;
+    color: saddlebrown
+}
+
+.form-btn:hover {
+    background-color: gray;
+}
+
+.gifWrap {
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+
+.gif {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.playing-gif {
+    box-shadow: 10px 10px 5px gray;
+}
+
+.rating {
+    margin: 15px 30px 30px 30px;
+}
